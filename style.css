@@ -1,0 +1,8 @@
+/* restore browser's default behav */
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* main styles */
