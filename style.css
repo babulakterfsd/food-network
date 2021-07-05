@@ -48,7 +48,7 @@ body {
     font-weight: 700;
     text-transform: capitalize;
 }
-.hero .hero-special-text {
+.hero-special-text {
     color: #FC9252;
 }
 .link-button {
@@ -70,9 +70,9 @@ body {
 .about-me {
     display: flex;
     padding-top: 50px;
+    padding-bottom: 30px;
     background-image: url('./images/shape/about-me-bg.png');
     background-repeat: no-repeat;
-    margin-bottom: 80px;
 }
 .about-me-image img {
     width: 50%;
@@ -84,6 +84,7 @@ body {
 }
 .about-me-text p {
     width: 60%;
+    line-height: 1.8;
 }
 .section-heading {
     font-size: 35px;
@@ -94,4 +95,39 @@ body {
     margin-bottom: 25px;
 }
 
-/* My-recipies section style */
+/* My-recipes section style */
+.my-recipes {
+    margin-bottom: 80px;
+    padding: 70px;
+}
+.my-recipes h2 {
+    text-align: center;
+}
+.my-recipes p {
+    width: 50%;
+    margin: 0px auto;
+}
+.recipe-container {
+   margin-top: 35px;
+   display: flex;
+}
+.single-recipe {
+   width: 33.33%;
+   padding: 15px 10px 25px 10px;
+   margin: 0px 25px;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   border-radius: 20px;
+   min-height: 180px;
+}
+.single-recipe img {
+    max-width: 100%;
+    border-radius: 20px;
+}
+.recipe-title {
+    font-weight: 700;
+    margin-top: 15px;
+}
+.single-recipe p {
+    margin: 0px;
+    width: 100%;
+}
