@@ -1,4 +1,4 @@
-/* restore browser's default behav */
+/* resets browser's default behav */
 body {
     margin: 0px;
     padding: 0px;
@@ -6,3 +6,26 @@ body {
 }
 
 /* main styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    color: #3b5;
+    margin-left: 100px;
+    padding: 5px;
+    font-weight: 900;
+    cursor: pointer;
+}
+.menu {
+    margin-right: 100px;
+}
+.menu ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0px 10px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+    cursor: pointer;
+}
