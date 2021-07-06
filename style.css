@@ -6,13 +6,24 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+/* common css for re-uability */
+
+.primary-color {
+    color: #FC9252;
+}
+.secondary-color {
+    color: #707070;
+}
+p {
+    line-height: 1.8;
+}
+
 /* topbar styles */
 .navbar {
     display: flex;
     justify-content: space-between;
 }
 .logo {
-    color: #FC9252;
     margin-left: 100px;
     padding: 5px;
     font-weight: 900;
@@ -48,9 +59,6 @@ body {
     font-weight: 700;
     text-transform: capitalize;
 }
-.hero-special-text {
-    color: #FC9252;
-}
 .link-button {
      background: linear-gradient(to right, orange,red);
      text-decoration: none;
@@ -73,6 +81,7 @@ body {
     padding-bottom: 30px;
     background-image: url('./images/shape/about-me-bg.png');
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .about-me-image img {
     width: 50%;
@@ -84,12 +93,10 @@ body {
 }
 .about-me-text p {
     width: 60%;
-    line-height: 1.8;
 }
 .section-heading {
     font-size: 35px;
     font-weight: 700;
-    color: #707070;
 }
 .about-me-text p {
     margin-bottom: 25px;
@@ -113,11 +120,10 @@ body {
 }
 .single-recipe {
    width: 33.33%;
-   padding: 15px 10px 25px 10px;
+   padding: 15px 10px 45px 10px;
    margin: 0px 25px;
    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
    border-radius: 20px;
-   min-height: 180px;
 }
 .single-recipe img {
     max-width: 100%;
@@ -125,9 +131,45 @@ body {
 }
 .recipe-title {
     font-weight: 700;
-    margin-top: 15px;
+    margin-top: 35px;
+    margin-bottom: 8px;
 }
 .single-recipe p {
     margin: 0px;
     width: 100%;
+}
+
+/* follower section style */
+.follower {
+    width: 80%;
+    margin: 0px auto;
+    margin-bottom: 80px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+}
+.follower div h2 {
+    font-weight: 900;
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+.follower div p {
+    margin-top: 8px;
+}
+
+/* footer section style */
+.footer {
+    background-color: #000;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+.footer h2 {
+    text-align: center;
+    word-spacing: 15px;
+}
+.footer p {
+    text-align: center;
+    margin-top: 30px;
 }
