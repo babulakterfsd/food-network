@@ -211,6 +211,47 @@ p {
 
 
 
+/* contact section style */
+#contact {
+    padding: 30px;
+    margin-bottom: 30px;
+}
+#contact h2, #form h3 {
+    text-align: center;
+}
+
+#form {
+    width: 700px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 40px;
+    border-radius: 15px;
+    margin: 20px auto;
+}
+
+#form input, #form textarea {
+    display: block;
+    width: 90%;
+    margin: 15px auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #d3cbcb;
+}
+  
+#form textarea {
+    height: 120px;
+}
+#form .submit-btn {
+    background: linear-gradient(to right,salmon, orange);
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 12px;
+    display: inline-block;
+    margin-top: 10px;
+    border: 0px solid transparent;
+    margin-left: 20px;
+    cursor: pointer;
+}
 
 
 
