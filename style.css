@@ -47,7 +47,7 @@ p {
 
 
 /* navbar styles */
-.navbar {
+#navbar {
     display: flex;
     justify-content: space-between;
     background-color: #FEF3EC;
@@ -75,7 +75,7 @@ p {
 
 
 /* hero section styles */
-.hero {
+#hero {
     display: flex;
     margin-bottom: 50px;
 }
@@ -83,7 +83,7 @@ p {
     margin-left: 100px;
     margin-top: 100px;
 }
-.hero h1 {
+#hero h1 {
     font-size: 50px;
     font-weight: 700;
     text-transform: capitalize;
@@ -97,7 +97,7 @@ p {
 
 
 /* about-us section style*/
-.about-us {
+#about-us {
     display: flex;
     padding: 50px 0px 0px 0px;
     background-image: url('./images/shape/about-me-bg.png');
@@ -124,11 +124,11 @@ p {
 
 
 /* Our-recipes section style */
-.our-recipes {
+#our-recipes {
     margin-bottom: 30px;
     padding: 70px;
 }
-.our-recipes h2 {
+#our-recipes h2 {
     text-align: center;
 }
 .recipe-card-container {
@@ -161,7 +161,7 @@ p {
 
 
 /* follower section style */
-.follower {
+#follower {
     width: 80%;
     margin: 0px auto;
     margin-bottom: 30px;
@@ -171,12 +171,12 @@ p {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 20px;
 }
-.follower h2 {
+#follower h2 {
     font-weight: 900;
     font-size: 35px;
     margin-bottom: 0px;
 }
-.follower p {
+#follower p {
     margin-top: 8px;
 }
 
@@ -185,10 +185,10 @@ p {
 
 
 /* team section style */
-.team {
+#team {
     padding: 50px 70px;
 }
-.team h2 {
+#team h2 {
     text-align: center;
 }
 .team-member {
@@ -215,16 +215,16 @@ p {
 
 
 /* footer section style */
-.footer {
+#footer {
     background-color: #000;
     padding-top: 40px;
     padding-bottom: 80px;
 }
-.footer h2 {
+#footer h2 {
     text-align: center;
     word-spacing: 5px;
 }
-.footer p {
+#footer p {
     text-align: center;
     margin-top: 30px;
 }
