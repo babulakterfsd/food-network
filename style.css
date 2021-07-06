@@ -104,15 +104,16 @@ p {
 
 /* My-recipes section style */
 .my-recipes {
-    margin-bottom: 80px;
+    margin-bottom: 30px;
     padding: 70px;
 }
 .my-recipes h2 {
     text-align: center;
 }
-.my-recipes p {
+.recipe-description {
     width: 50%;
     margin: 0px auto;
+    text-align: center;
 }
 .recipe-container {
    margin-top: 35px;
@@ -143,7 +144,7 @@ p {
 .follower {
     width: 80%;
     margin: 0px auto;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
     padding: 50px;
     display: flex;
     justify-content: space-around;
@@ -158,6 +159,38 @@ p {
 .follower div p {
     margin-top: 8px;
 }
+
+/* team section style */
+.team {
+    padding: 50px 70px;
+}
+.team h2 {
+    text-align: center;
+}
+.team p {
+    width: 50%;
+    margin: 0px auto;
+    text-align: center;
+}
+.team-member {
+    display: flex;
+    padding: 30px 70px;
+    margin-top: 10px;
+}
+.team-member div {
+    width: 25%;
+    margin: 0px 15px;
+
+}
+.team-member div img {
+    width: 70%;
+    border-radius: 5px;
+}
+.team-member div h5 {
+    margin-left: 30px;
+}
+
+
 
 /* footer section style */
 .footer {
