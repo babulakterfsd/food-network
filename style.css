@@ -1,4 +1,5 @@
-/* resets browser's default behav */
+
+/* resets browser's default behave */
 body {
     margin: 0px;
     padding: 0px;
@@ -6,8 +7,9 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-/* common css for re-uability */
 
+
+/* common css for re-uability */
 .primary-color {
     color: #FC9252;
 }
@@ -17,11 +19,38 @@ body {
 p {
     line-height: 1.8;
 }
+.btn {
+    background: linear-gradient(to right,salmon, orange);
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 12px;
+    display: inline-block;
+    margin-top: 30px;
+}
+.half-width {
+    width: 50%;
+}
+.section-heading {
+    font-size: 35px;
+    font-weight: 700;
+}
+.centered-paragraph-text {
+    width: 50%;
+    margin: 0px auto;
+    text-align: center;
+}
 
-/* topbar styles */
+
+
+
+
+/* navbar styles */
 .navbar {
     display: flex;
     justify-content: space-between;
+    background-color: #FEF3EC;
 }
 .logo {
     margin-left: 100px;
@@ -30,25 +59,25 @@ p {
     cursor: pointer;
 }
 .menu {
-    margin-right: 100px;
+    margin-right: 20px;
 }
 .menu ul li {
     display: inline-block;
     list-style-type: none;
     margin: 0px 10px;
-    font-size: 18px;
     font-weight: 500;
     margin-top: 10px;
     cursor: pointer;
 }
 
+
+
+
+
 /* hero section styles */
 .hero {
     display: flex;
     margin-bottom: 50px;
-}
-.half-width {
-    width: 50%;
 }
 .hero-text {
     margin-left: 100px;
@@ -59,86 +88,77 @@ p {
     font-weight: 700;
     text-transform: capitalize;
 }
-.link-button {
-     background: linear-gradient(to right, orange,red);
-     text-decoration: none;
-     padding: 15px 30px;
-     border-radius: 50px;
-     color: #fff;
-     font-size: 12px;
-     display: inline-block;
-     margin-top: 30px;
-}
 .hero-image img {
    width: 80%;
    margin-left: 100px;
 }
 
-/* about-me section style*/
-.about-me {
+
+
+
+/* about-us section style*/
+.about-us {
     display: flex;
-    padding-top: 50px;
-    padding-bottom: 30px;
+    padding: 50px 0px 0px 0px;
     background-image: url('./images/shape/about-me-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
-.about-me-image img {
+.about-us-image img {
     width: 50%;
     margin-left: 200px;
 }
-.about-me-text {
+.about-us-text {
     margin-top: 80px;
     margin-left: 200px;
 }
-.about-me-text p {
-    width: 60%;
+.about-us-text p {
+    width: 70%;
+    font-weight: 500;
 }
-.section-heading {
-    font-size: 35px;
-    font-weight: 700;
-}
-.about-me-text p {
+.about-us-text p {
     margin-bottom: 25px;
 }
 
-/* My-recipes section style */
-.my-recipes {
+
+
+
+/* Our-recipes section style */
+.our-recipes {
     margin-bottom: 30px;
     padding: 70px;
 }
-.my-recipes h2 {
+.our-recipes h2 {
     text-align: center;
 }
-.recipe-description {
-    width: 50%;
-    margin: 0px auto;
-    text-align: center;
-}
-.recipe-container {
+.recipe-card-container {
    margin-top: 35px;
    display: flex;
 }
-.single-recipe {
+.recipe-card {
    width: 33.33%;
-   padding: 15px 10px 45px 10px;
+   padding: 15px 15px 45px;
    margin: 0px 25px;
    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
    border-radius: 20px;
 }
-.single-recipe img {
+.recipe-card img {
     max-width: 100%;
     border-radius: 20px;
 }
 .recipe-title {
-    font-weight: 700;
+    font-weight: 900;
+    font-size: 20px;
     margin-top: 35px;
     margin-bottom: 8px;
 }
-.single-recipe p {
+.recipe-card p {
     margin: 0px;
     width: 100%;
 }
+
+
+
 
 /* follower section style */
 .follower {
@@ -151,25 +171,24 @@ p {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 20px;
 }
-.follower div h2 {
+.follower h2 {
     font-weight: 900;
     font-size: 35px;
     margin-bottom: 0px;
 }
-.follower div p {
+.follower p {
     margin-top: 8px;
 }
+
+
+
+
 
 /* team section style */
 .team {
     padding: 50px 70px;
 }
 .team h2 {
-    text-align: center;
-}
-.team p {
-    width: 50%;
-    margin: 0px auto;
     text-align: center;
 }
 .team-member {
@@ -182,13 +201,16 @@ p {
     margin: 0px 15px;
 
 }
-.team-member div img {
+.team-member img {
     width: 70%;
     border-radius: 5px;
 }
-.team-member div h5 {
+.team-member h5 {
     margin-left: 30px;
 }
+
+
+
 
 
 
@@ -200,7 +222,7 @@ p {
 }
 .footer h2 {
     text-align: center;
-    word-spacing: 15px;
+    word-spacing: 5px;
 }
 .footer p {
     text-align: center;
